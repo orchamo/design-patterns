@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./factory",
+        "./factory",
+        "./factory/products"
+    ]
+}

@@ -8,6 +8,4 @@ class FlyHigh(IFly):
     def fly(self):
         print("fly_high")
 
-    #allows access to parent variables
-    def parent_behavior(self):
-        return self.behavior
+  

@@ -4,4 +4,5 @@ from behaviors.quack.QuackLoud import QuackLoud
 
 #creating a duck instance
 danny = Duck("danny", FlyHigh(), QuackLoud())
+
 print(danny)

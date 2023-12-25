@@ -1,6 +1,6 @@
-from .IQuack import IQuack
+from .IQuackBehavior import IQuackBehavior
 #type of quacking
-class QuackQuiet(IQuack):
+class QuackQuiet(IQuackBehavior):
     def __init__(self):
         super().__init__()
         self.desc = "Quacking-Quiet"
@@ -8,6 +8,3 @@ class QuackQuiet(IQuack):
     def quack(self):
         print("quack_quiet")
         
-    #allows access to parent variables
-    def parent_behavior(self):
-        return self.behavior
